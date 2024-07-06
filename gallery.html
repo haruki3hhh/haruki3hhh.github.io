@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-  <title> Gallery </title>
+  <title>Gallery</title>
   <style>
     body,
     html {
@@ -117,6 +117,8 @@
     .card-text {
       margin: 0;
       padding: 0 0 0.5em 0;
+      font-size: 0.8em;
+      color: #666;
     }
 
     @media (max-width: 1200px) {
@@ -150,18 +152,29 @@
         <small>Roland's Gallery</small>
       </h1>
       <div class="tags">
-        <span class="tag">  </span>
+        <span class="tag">Tag1</span>
+        <span class="tag">Tag2</span>
         <!-- 添加更多标签 -->
       </div>
-      <br/>
-      <p> ip: Evanston, United States </p>
+      <br />
+      <p>ip: Evanston, United States</p>
     </div>
   </div>
 
   <div class="gallery">
     <div class="card">
       <img src="img/IMG_1189.jpg" alt="图片1">
+      <div class="card-body">
+        <p class="card-text">This is a description for image 1</p>
+      </div>
     </div>
+    <div class="card">
+      <img src="img/IMG_1190.jpg" alt="图片2">
+      <div class="card-body">
+        <p class="card-text">This is a description for image 2</p>
+      </div>
+    </div>
+    <!-- 继续添加其他卡片 -->
   </div>
 
 </body>
